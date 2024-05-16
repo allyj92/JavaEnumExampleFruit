@@ -28,19 +28,19 @@ public class Main {
     static void printFruitDetails(Fruit fruit) {
         switch (fruit) {
             case APPLE:
-                System.out.println("The color of APPLE is " + fruit.getColor() + " and it tastes " + fruit.getTaste());
+                System.out.println("#"+fruit.getNumber()+" The color of APPLE is " + fruit.getColor() + " and it tastes " + fruit.getTaste());
                 break;
             case BANANA:
-                System.out.println("The color of BANANA is " + fruit.getColor() + " and it tastes " + fruit.getTaste());
+                System.out.println("#"+fruit.getNumber()+" The color of BANANA is " + fruit.getColor() + " and it tastes " + fruit.getTaste());
                 break;
             case ORANGE:
-                System.out.println("The color of ORANGE is " + fruit.getColor() + " and it tastes " + fruit.getTaste());
+                System.out.println("#"+fruit.getNumber()+" The color of ORANGE is " + fruit.getColor() + " and it tastes " + fruit.getTaste());
                 break;
             case GRAPH:
-                System.out.println("The color of GRAPE is " + fruit.getColor() + " and it tastes " + fruit.getTaste());
+                System.out.println("#"+fruit.getNumber()+" The color of GRAPE is " + fruit.getColor() + " and it tastes " + fruit.getTaste());
                 break;
             case LEMON:
-                System.out.println("The color of LEMON is " + fruit.getColor() + " and it tastes " + fruit.getTaste());
+                System.out.println("#"+fruit.getNumber()+" The color of LEMON is " + fruit.getColor() + " and it tastes " + fruit.getTaste());
                 break;
             default:
                 System.out.println("Unknown fruit");
